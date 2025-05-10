@@ -22,7 +22,7 @@ export default function Create(){
                         rows="10"
                         value={data.body}
                         onChange={(e) => setData('body', e.target.value)}
-                        className={errors.body && '!ring-red-500'}
+                        className={errors.body && 'ring-red-500!'}
                     ></textarea>
 
                     {errors.body &&  <p className="error">{errors.body}</p>}
